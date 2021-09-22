@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div2 ul{
+    display: flex;
+}
+
+.div2 ul li{
+    list-style: none;
+}
+.div2 ul li a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.div1{
+    margin-left: 70px;
+    margin-right: 500px;
+}
+
+.div1 h3{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-1{
+    background-color: rgb(224, 57, 28);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.megadiv{
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+}
+.img1{
+    height: 470px;
+    width: auto;
+    margin-left: 100px;
+    opacity: 0;
+}
+.div4{
+    width: 23%;
+}
+
+.megadiv2{
+    display: flex;
+    justify-content: center;
+    background-image: url(back.jpg);
+    background-size: cover;
+    padding: 70px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div4{
+    margin-top: 60px;
+}
+.div4 .p1{ 
+    color: rgb(224, 57, 28);
+    margin-bottom: 15px;
+}
+.div4 h1{ 
+    color: white;
+    margin-bottom: 20px;
+}
+.div4 .p2{ 
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.btn-2{
+    padding: 8px 16px;
+    background-color:rgb(224, 57, 28);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-3{
+    padding: 8px 16px;
+    background-color:rgb(226, 218, 218);
+    border: 1px solid black;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.div6{
+    background-color: rgb(228, 224, 224);
+    padding: 60px 0px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div6 h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.img2{
+    height: 290px;
+    width: auto;
+}
+
+.partner1{
+    background-color: white;
+    width: 17%;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 1px solid rgb(175, 172, 172);
+    margin: 20px 60px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.partner1 h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.megadiv3{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+    background-color: rgb(209, 205, 205);
+}
+
+footer{
+    background-color: rgb(34, 32, 32);
+    padding: 60px 0px;
+    color: white;
+    text-align: center;
+}
